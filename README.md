@@ -19,7 +19,7 @@ Terraform 1.2.x
 Example module invocation:
 ```hcl
 module "storage" {
-  source      = "git::https://github.com/elvinlari/terraform-module-gcs.git"
+  source      = "git::https://github.com/elvinlari/terraform-gcp-bucket-module.git"
   bucket_name = "my-storage-34567"
   project_id  = "your-gcp-project-id"
   labels = {
